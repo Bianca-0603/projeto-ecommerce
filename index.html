@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="estilos.css" />
 
     <title>E-commerce Master</title>
   </head>
@@ -291,7 +292,12 @@
               </thead>
               <tbody>
                 <tr>
-                  <td><img src="./assets/images/camiseta_roxa.jpg" alt="Camiseta Dev em Dobro - Roxa"/></td>
+                  <td>
+                    <img
+                      src="./assets/images/camiseta_roxa.jpg"
+                      alt="Camiseta Dev em Dobro - Roxa"
+                    />
+                  </td>
                   <td>Camiseta Dev em Dobro</td>
                   <td>R$ 89,00</td>
                   <td><input type="number" value="1" min="1" /></td>
@@ -299,7 +305,12 @@
                   <td><button class="remover">Remover</button></td>
                 </tr>
                 <tr>
-                  <td><img src="./assets/images/Caneca-roxa-jpg.webp" alt="Caneca Roxa"/></td>
+                  <td>
+                    <img
+                      src="./assets/images/Caneca-roxa-jpg.webp"
+                      alt="Caneca Roxa"
+                    />
+                  </td>
                   <td>Caneca Roxa</td>
                   <td>R$ 39,00</td>
                   <td><input type="number" value="1" min="1" /></td>
@@ -308,22 +319,25 @@
                 </tr>
 
                 <tr>
-                  <td><img src="./assets/images/Caneca-branca.jpg" alt="Caneca - Branca"/></td>
+                  <td>
+                    <img
+                      src="./assets/images/Caneca-branca.jpg"
+                      alt="Caneca - Branca"
+                    />
+                  </td>
                   <td>Caneca Branca</td>
                   <td>R$ 29,00</td>
                   <td><input type="number" value="1" min="1" /></td>
                   <td>R$ 29,00</td>
                   <td><button class="remover">Remover</button></td>
                 </tr>
-
               </tbody>
             </table>
 
             <div>
               <span id="total-carrinho">Total: R$ 0,00</span>
               <button>Finalizar compra</button>
-              </div>
-
+            </div>
           </div>
         </div>
       </div>
