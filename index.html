@@ -13,12 +13,13 @@
 
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/base.css" />
-    <link rel="stylesheet" href="estilos.css" />
+		<link rel="stylesheet" href="css/cabecalho.css"/>
+    <link rel="stylesheet" href="css/estilos.css" />
 
     <title>E-commerce Master</title>
   </head>
   <body>
-    <header>
+    <header class="cabecalho">
       <a href="/">
         <img src="./assets/images/logo.svg" alt="" />
       </a>
@@ -317,7 +318,7 @@
                   <td>
                     <img
                       src="./assets/images/Caneca-roxa-jpg.webp"
-                      alt="Caneca Roxa"
+                      alt="Caneca Roxa" class="img-caneca"
                     />
                   </td>
                   <td>Caneca Roxa</td>
@@ -331,7 +332,7 @@
                   <td>
                     <img
                       src="./assets/images/Caneca-branca.jpg"
-                      alt="Caneca - Branca"
+                      alt="Caneca - Branca" class="img-caneca"
                     />
                   </td>
                   <td>Caneca Branca</td>
@@ -340,6 +341,21 @@
                   <td>R$ 29,00</td>
                   <td><button class="remover">Remover</button></td>
                 </tr>
+
+                <tr>
+                  <td>
+                    <img
+                      src="/assets/images/caneca_devemdobro.jpg"
+                      alt="Caneca Dev em Dobro" class="img-caneca"
+                    />
+                  </td>
+                  <td>Caneca Dev em Dobro</td>
+                  <td>R$ 29,00</td>
+                  <td><input type="number" value="1" min="1" /></td>
+                  <td>R$ 29,00</td>
+                  <td><button class="remover">Remover</button></td>
+                </tr>
+
               </tbody>
             </table>
 

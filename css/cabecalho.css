@@ -1,0 +1,10 @@
+.cabecalho{
+ grid-area: header ;   
+ padding: 30px 0; /*ESPAÇAMENTO INTERNO DOS ELEMENTOS */
+}
+
+.header-conteudo{
+
+
+ 
+}
